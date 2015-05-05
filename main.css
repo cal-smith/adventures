@@ -1,4 +1,18 @@
 
 body {
+    font-family: Helvetica-Neue, Arial, sans-serif;
+    color: darkslategrey;
+}
 
+a {
+    color: dodgerblue;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+li {
+    /*I'll be real here, this just looks kinda cool*/
+    list-style:lower-greek;
 }
