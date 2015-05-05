@@ -2,15 +2,92 @@
 <head>
     <title>Adventures in programming!</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="solarized_dark.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     <h1>[language]-adventures</h1>
     <p>An exploration of programming languages</p>
     <ul>
-        <li><a href="https://github.com/hansolo669/ocaml-adventures">ocaml-adventures</a></li>
-        <li><a href="https://github.com/hansolo669/racket-adventures">racket-adventures</a></li>
-        <li><a href="https://github.com/hansolo669/swift-adventures">swift-adventures</a></li>
-        <li><a href="https://github.com/hansolo669/pascal-adventures">pascal-adventures</a></li>
+        <li><a href="https://github.com/hansolo669/ocaml-adventures">ocaml-adventures</a> | <a href="#ocaml">thoughts</a></li>
+        <li><a href="https://github.com/hansolo669/racket-adventures">racket-adventures</a> | <a href="#racket">thoughts</a></li>
+        <li><a href="https://github.com/hansolo669/swift-adventures">swift/Obj-C-adventures</a> | <a href="#swift">thoughts</a></li>
+        <li><a href="https://github.com/hansolo669/pascal-adventures">pascal-adventures</a> | <a href="#pascal">thoughts</a></li>
+        <li><a href="https://github.com/hansolo669/cpp-adventures">cpp-adventures</a> | <a href="#cpp">thoughts</a></li>
+        <li><a href="https://github.com/hansolo669/c-adventures">c-adventures</a> | <a href="#c">thoughts</a></li>
     </ul>
+    <div class="thoughts">
+        <div id="ocaml">
+            <h2>ocaml</h2>
+            <p>(* TODO: thoughts *)</p>
+            <pre><code>
+            Printf.printf "Hello, World!";;
+            </code></pre>
+        </div>
+        <div id="racket">
+            <h2>racket</h2>
+            <p>It's a really clean lisp with awesome documentation. Dr Racket complements the language nicely and provides a good environment to play around with code.</p>
+            <pre><code>
+            (display "Hello, World!")
+            </code></pre>
+        </div>
+        <div id="swift">
+            <h2>swift/Obj-C</h2>
+            <p>I group these two together not because of their similarities, but because they are complementary and integral parts of Apples ecosystem.</p>
+            <p>swift</p>
+            <pre><code>
+            println("Hello, World")
+            </code></pre>
+            <p>and Obj-C</p>
+            <pre><code>
+            #import <Foundation/Foundation.h>
+
+            int main() {
+                @autoreleasepool {
+                    NSLog(@"Hello, World");
+                }
+                return 0;
+            }
+            </code></pre>
+        </div>
+        <div id="pascal">
+            <h2>pascal</h2>
+            <p>It's pretty nifty.</p>
+            <pre><code class="delphi">
+            program Demo;
+            begin
+                WriteLn('Hello, World!');
+            end.
+            </code></pre>
+        </div>
+        <div id="cpp">
+            <h2>C++</h2>
+            <p>What happens when you add support for almost every programming paradigm to C? C++ happens.</p>
+            <pre><code>
+            #include <iostream>
+
+            using namespace std;
+
+            int main() {
+                cout << "Hello, World!" << endl;
+                return 0;
+            }
+            </code></pre>
+        </div>
+        <div id="c">
+            <h2>C</h2>
+            <p>Possibly the first "viral" langauge, and still the language of choice for kernel hackers, I would be remiss if I didn't at least mention C.</p>
+            <pre><code>
+            #include <stdio.h>
+
+            int main() {
+                printf("Hello, World!");
+                return 0;
+            }
+            </code></pre>
+        </div>
+    </div>
 </body>
 </html>

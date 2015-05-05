@@ -16,3 +16,18 @@ li {
     /*I'll be real here, this just looks kinda cool*/
     list-style:lower-greek;
 }
+
+.thoughts {
+    max-width: 800px;
+}
+
+.thoughts div {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+:target {
+    background: lightyellow;
+}
