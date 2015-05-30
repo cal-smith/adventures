@@ -50,14 +50,12 @@
         <div id="ocaml">
             <h2>ocaml</h2>
             <p>(* TODO: thoughts *)</p>
-<pre><code>Printf.printf "Hello, World!";;
-</code></pre>
+<pre><code>Printf.printf "Hello, World!";;</code></pre>
         </div>
         <div id="racket">
             <h2>racket</h2>
             <p>Racket is a really clean lisp with awesome documentation. Dr Racket is a great environment to play around with code.</p>
-<pre><code>(display "Hello, World!")
-</code></pre>
+<pre><code>(display "Hello, World!")</code></pre>
         </div>
         <div id="swift">
             <h2>swift/Obj-C</h2>
@@ -66,7 +64,8 @@
 <pre><code>println("Hello, World")
 </code></pre>
             <p>and Obj-C</p>
-<pre><code>#import &lt;Foundation/Foundation.h&gt;
+<pre><code>
+#import &lt;Foundation/Foundation.h&gt;
 
 int main() {
     @autoreleasepool {
@@ -79,7 +78,8 @@ int main() {
         <div id="pascal">
             <h2>pascal</h2>
             <p>It's pretty nifty.</p>
-<pre><code>program Demo;
+<pre><code>
+program Demo;
 begin
     WriteLn('Hello, World!');
 end.
@@ -88,7 +88,8 @@ end.
         <div id="cpp">
             <h2>C++</h2>
             <p>What happens when you add support for almost every programming paradigm to C? C++ happens.</p>
-<pre><code>#include &lt;iostream&gt;
+<pre><code>
+#include &lt;iostream&gt;
 
 using namespace std;
 
@@ -101,7 +102,8 @@ int main() {
         <div id="c">
             <h2>C</h2>
             <p>Possibly the first "viral" langauge, and still the language of choice for kernel hackers, I would be remiss if I didn't at least mention C.</p>
-<pre><code>#include &lt;stdio.h&gt;
+<pre><code>
+#include &lt;stdio.h&gt;
 
 int main() {
     printf("Hello, World!");
@@ -109,17 +111,17 @@ int main() {
 }
 </code></pre>
         </div>
-    </div>
-    <div id="fortran">
-        <h2>FORTRAN(2003)</h2>
-        <p>I'm not particularily sure <i>why</i> I did this one, I guess I had to satisfy some peverse curiosity. Anyway, FORTRAN is old, ugly, and largely still the standard for supercomputer benchmarking. It's not the worst possible language ever, but if you have the choice <i>anything</i> is signifigantly better.</p>
-        <p>Let's check out a simple hello world:</p>
+        <div id="fortran">
+            <h2>FORTRAN(2003)</h2>
+            <p>I'm not particularily sure <i>why</i> I did this one, I guess I had to satisfy some peverse curiosity. Anyway, FORTRAN is old, ugly, and largely still the standard for supercomputer benchmarking. It's not the worst possible language ever, but if you have the choice <i>anything</i> is signifigantly better.</p>
+            <p>Let's check out a simple hello world:</p>
 <pre><code>
 program hello
     implicit none
     print*, "Hello, World"
 end program hello
 </code></pre>
+        </div>
     </div>
 </body>
 </html>
